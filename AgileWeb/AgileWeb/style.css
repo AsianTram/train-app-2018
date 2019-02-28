@@ -1,0 +1,192 @@
+﻿body {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Poiret One', cursive;
+}
+
+header {
+    margin: auto;
+    height: 190px;
+    width: 800px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+img {
+    height: 200px;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.select1 {
+    float: right;
+    margin-right: 180px;
+    margin-top: 5px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.select2 {
+    height: 40px;
+    width: 85px;
+    float: right;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-right: 180px;
+    border-radius: 5px;
+}
+
+.select3 {
+    height: 40px;
+    width: 85px;
+    float: right;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.select4 {
+    height: 40px;
+    width: 85px;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#button {
+    padding-left: 10px;
+    margin-right: 35px;
+    margin-top: -92px;
+    height: 40px;
+    width: 100px;
+    float: right;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#button2 {
+    padding-left: 15px;
+    margin-top: 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: plum;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.station {
+    background-color: plum;
+    padding-left: 50px;
+    padding-top: 25px;
+    border-radius: 5px 5px 0px 0px;
+    width: 750px;
+    height: 95px;
+}
+
+.time {
+    background-color: plum;
+    padding-left: 180px;
+    padding-top: 20px;
+    width: 620px;
+    height: 95px;
+}
+.time1 {
+    background-color: plum;
+    padding-left: 180px;
+    padding-top: 20px;
+    width: 620px;
+    height: 95px;
+}
+
+.date {
+    background-color: plum;
+    padding-left: 180px;
+    padding-top: 20px;
+    width: 620px;
+    height: 95px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#table {
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    border: solid 1px;
+}
+
+table {
+    font-family: 'Poiret One', cursive;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: plum;
+}
+
+footer {
+    padding-top: 240px;
+    padding-bottom: 5px;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 1000px;
+
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
